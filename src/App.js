@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+// Components
+import HomeScreen from './screens/HomeScreen';
+import AboutMeScreen from './screens/AboutMeScreen';
+import ResumeScreen from './screens/ResumeScreen';
+import SamplesScreen from './screens/SamplesScreen';
+import NavBar from './components/NavBar';
 
 function App() {
+
+  const [page, setPage] = useState('Home');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <NavBar page={page} setPage={setPage} />
+      {page === 'Home' && 
+        <HomeScreen />
+      }
+      {page === 'AboutMe' &&
+        <AboutMeScreen />
+      }
+      {page === 'Resume' &&
+        <ResumeScreen />
+      }
+      {page === 'Samples' &&
+        <SamplesScreen />
+      }
     </div>
   );
 }

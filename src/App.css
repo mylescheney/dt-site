@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 76%;
+  margin-top: 2%;
+}
+
+.navBar {
+  cursor: pointer;
+}
+
+.navText {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.screen {
+  width: 92%;
+  display: flex;
+}
+
+.leftColumnHome {
+  flex: 1;
+}
+
+.mainHome {
+  flex: 2;
+  margin-top: 2%;
+}
+
+.rightColumnHome {
+  flex: 1;
+}
+
+.homeImgDiv {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.rotateLeftLC {
+  transform: rotate(10deg);
+  margin-left: 20px;
+  height: 220px;
+  width: 220px;
+  border-radius: 3px;
+}
+
+.rotateRightLC {
+  transform: rotate(-10deg);
+  margin-left: 70px;
+  height: 220px;
+  width: 220px;
+  border-radius: 3px;
+}
+
+.rotateLeftRC {
+  transform: rotate(-10deg);
+  margin-left: 70px;
+  height: 220px;
+  width: 220px;
+  border-radius: 3px;
+}
+
+.rotateRightRC {
+  transform: rotate(10deg);
+  margin-left: 20px;
+  height: 220px;
+  width: 220px;
+  border-radius: 3px;
+}
+
+.leftColumnAboutMe {
+  width: 50%;
+  padding: 2%;
+}
+
+.rightColumnAboutMe {
+  width: 50%;
+  padding: 2%;
+}
+
+.resumeScreen {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.downloadResBtn {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 3px;
+  border-style: solid;
+  cursor: pointer;
+  width: 10%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-top: 2%;
+  margin-bottom: 3%;
 }
 
-.App-link {
-  color: #61dafb;
+.resume {
+  width: 80%;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 3px;
+  border-style: solid;
+  margin-bottom: 3%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.samplesScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.samplesRow {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+.sampleBlock {
+  width: 100%;
+  margin-left: 0.1%;
+  margin-right: 0.1%;
+}
+
+.sampleImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 3px;
 }
