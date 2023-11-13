@@ -8,7 +8,7 @@ const AboutMeScreen = () => {
                 <video src={resumeVideo} width='100%' controls/>
     </div> */}
             <div className='leftColumnAboutMe'>
-                <img src={greySquare} width='100%' />
+                <img src={greySquare} width='100%' alt='picture of me' />
             </div>
             <div className="rightColumnAboutMe">
                 <h1>About Me</h1>

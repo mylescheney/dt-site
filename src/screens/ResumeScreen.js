@@ -6,7 +6,7 @@ const ResumeScreen = () => {
             <div className='downloadResBtn'>
             <p>Download</p>
             </div>
-                <img className="resume" src={resume} />
+                <img className="resume" src={resume} alt='resume' />
         </div>
     )
 }

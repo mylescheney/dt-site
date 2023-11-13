@@ -5,18 +5,18 @@ const SamplesScreen = () => {
         <div className="samplesScreen">
             <div className='samplesRow'>
                 <div className='sampleBlock'>
-                    <img className='sampleImg' src={greySquare} />
+                    <img className='sampleImg' src={greySquare} alt='picture of me' />
                 </div>
                 <div className='sampleBlock'>
-                    <img className='sampleImg' src={greySquare} />
+                    <img className='sampleImg' src={greySquare} alt='picture of me' />
                 </div>
             </div>
             <div className='samplesRow'>
                 <div className='sampleBlock'>
-                    <img className='sampleImg' src={greySquare} />
+                    <img className='sampleImg' src={greySquare} alt='picture of me' />
                 </div>
                 <div className='sampleBlock'>
-                    <img className='sampleImg' src={greySquare} />
+                    <img className='sampleImg' src={greySquare} alt='picture of me' />
                 </div>
             </div>
         </div>
