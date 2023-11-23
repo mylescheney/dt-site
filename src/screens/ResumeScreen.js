@@ -1,12 +1,14 @@
-import resume from '../images/resume.jpg';
+import resumePic from '../images/resume.jpg';
+import MilesMorlockResume from '../assets/MilesMorlockResume.pdf';
+
 
 const ResumeScreen = () => {
     return (
         <div className='resumeScreen'>
-            <div className='downloadResBtn'>
-            <p>Download</p>
-            </div>
-                <img className="resume" src={resume} alt='resume' />
+            <a href={MilesMorlockResume} download="MilesMorlockResume" target='_blank' className='downloadResBtn'>
+                <p>Download</p>
+            </a>
+            <img className="resume" src={resumePic} />
         </div>
     )
 }

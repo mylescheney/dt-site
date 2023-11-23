@@ -4,11 +4,15 @@ import greySquare from '../images/greySquare.jpeg';
 const AboutMeScreen = () => {
     return (
         <div className="screen">
-            {/*<div className="leftColumnAboutMe">
-                <video src={resumeVideo} width='100%' controls/>
-    </div> */}
             <div className='leftColumnAboutMe'>
-                <img src={greySquare} width='100%' alt='me' />
+                <iframe
+                    width="560'"
+                    height="315"
+                    src="https://www.youtube.com/embed/C83ccqUZ_kE?si=t_fCWhdKuwisgyZX"
+                    title="Resume Video"
+                    frameborder="0"
+                    allow="accelerometer"
+                />
             </div>
             <div className="rightColumnAboutMe">
                 <h1>About Me</h1>

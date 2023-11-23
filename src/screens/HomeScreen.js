@@ -5,10 +5,10 @@ const HomeScreen = () => {
         <div className="screen">
             <div className="leftColumnHome">
                 <div className='homeImgDiv'>
-                    <img className='rotateLeftLC' src={greySquare} alt='me' />
+                    <img className='rotateLeftLC' src={greySquare} />
                 </div>
                 <div className='homeImgDiv'>
-                    <img className='rotateRightLC' src={greySquare} alt='me' />
+                    <img className='rotateRightLC' src={greySquare} />
                 </div>
             </div>
             <div className="mainHome">
@@ -23,10 +23,10 @@ const HomeScreen = () => {
             </div>
             <div className="rightColumnHome">
             <div className='homeImgDiv'>
-                    <img className='rotateLeftRC' src={greySquare} alt='me' />
+                    <img className='rotateLeftRC' src={greySquare} />
                 </div>
                 <div className='homeImgDiv'>
-                    <img className='rotateRightRC' src={greySquare} alt='me' />
+                    <img className='rotateRightRC' src={greySquare} />
                 </div>
             </div>
         </div>
