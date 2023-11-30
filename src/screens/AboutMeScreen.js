@@ -1,5 +1,5 @@
 // import resumeVideo from '../images/VideoResume.mp4';
-import greySquare from '../images/greySquare.jpeg';
+// import greySquare from '../images/greySquare.jpeg';
 
 const AboutMeScreen = () => {
     return (
