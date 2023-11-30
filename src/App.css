@@ -166,3 +166,39 @@ h1, p {
 .aboutMeText {
   font-size: 24px;
 }
+
+.homeHeading {
+  width: '90%';
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 40px;
+}
+
+.homeParagraph {
+  font-size: 24px;
+  width: '90%';
+  margin-left: 5%;
+}
+
+.signature {
+  align-self: flex-end;
+  font-size: 24px;
+  width: '90%';
+}
+
+.contactInfo {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.contactInfoParagraph {
+  align-self: flex-end;
+  font-size: 22px;
+  padding-top: 0;
+  padding-bottom: 2;
+  margin-top: 0;
+  margin-bottom: 0;
+}

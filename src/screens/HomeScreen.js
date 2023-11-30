@@ -1,5 +1,7 @@
 import greySquare from '../images/greySquare.jpeg';
 
+
+
 const HomeScreen = () => {
     return (
         <div className="screen">
@@ -12,13 +14,13 @@ const HomeScreen = () => {
                 </div>
             </div>
             <div className="mainHome">
-                <h1>Hello there!</h1>
-                <p>My name is Miles Morlock. I am a biology major at the Univeristy of the District of Columbia and an aspiring forensic pathologist. The next step for me and my career goals is attending medical school. If you're considering my application, you can explore this website to learn more about me!</p>
+                <h1 className='homeHeading'>Hello there!</h1>
+                <p className='homeParagraph'>My name is Miles Morlock. I am a biology major at the Univeristy of the District of Columbia and an aspiring forensic pathologist. The next step for me and my career goals is attending medical school. If you're considering my application, you can explore this website to learn more about me!</p>
                 <div className="contactInfo">
-                    <p>Miles Morlock</p>
-                    <p>Washington, D.C.</p>
-                    <p>410-610-8220</p>
-                    <p>miles.morlock@udc.edu</p>
+                    <p className='signature'>- Miles Morlock</p>
+                    <p className='contactInfoParagraph'>Washington, D.C.</p>
+                    <p className='contactInfoParagraph'>miles.morlock@udc.edu</p>
+                    <p className='contactInfoParagraph'>410-610-8220</p>
                 </div>
             </div>
             <div className="rightColumnHome">
