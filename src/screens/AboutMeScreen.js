@@ -12,7 +12,7 @@ const AboutMeScreen = () => {
                     title="Resume Video"
                     frameborder="0"
                     allow="accelerometer"
-                    alt='resume video'
+                    alt='resume vid'
                 />
             </div>
             <div className="rightColumnAboutMe">
