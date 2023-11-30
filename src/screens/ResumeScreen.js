@@ -8,7 +8,7 @@ const ResumeScreen = () => {
             <a href={MilesMorlockResume} download="MilesMorlockResume" target='_blank' className='downloadResBtn'>
                 <p>Download</p>
             </a>
-            <img className="resume" src={resumePic} />
+            <img className="resume" src={resumePic} alt='resumeImg' />
         </div>
     )
 }

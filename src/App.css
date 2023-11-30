@@ -162,3 +162,7 @@ h1, p {
   height: 300px;
   border-radius: 3px;
 }
+
+.aboutMeText {
+  font-size: 24px;
+}
