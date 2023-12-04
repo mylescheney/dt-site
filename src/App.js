@@ -24,7 +24,7 @@ function App() {
     window.addEventListener('resize', handleResize);
   }, []);
 
-  if (width < 501) {
+  if (width < 570) {
     return (
       <div className='phoneView'>
         <h1 className='greetingPhone'>Hello there!</h1>
@@ -65,31 +65,25 @@ function App() {
           />
         </div>
         <a href={MilesMorlockResume} download="MilesMorlockResume" target='_blank' rel="noreferrer" className='downloadResBtnPhone'>
-          <p className='downloadPPhone'>Download</p>
+          <p className='downloadPPhone'>Download Resume</p>
         </a>
-      </div>
-    )
-  } else if (width < 1000) {
-    return (
-      <div>
-        <p>tablet {width}</p>
       </div>
     )
   } else {
     return (
       <div className='app'>
-        <NavBar page={page} setPage={setPage} />
+        <NavBar page={page} setPage={setPage} width={width} />
         {page === 'Home' &&
-          <HomeScreen />
+          <HomeScreen width={width} />
         }
         {page === 'AboutMe' &&
-          <AboutMeScreen />
+          <AboutMeScreen width={width} />
         }
         {page === 'Resume' &&
-          <ResumeScreen />
+          <ResumeScreen width={width} />
         }
         {page === 'Samples' &&
-          <SamplesScreen />
+          <SamplesScreen width={width} />
         }
       </div>
     );
