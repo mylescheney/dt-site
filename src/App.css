@@ -37,7 +37,8 @@
   display: flex;
 }
 
-h1, p {
+h1,
+p {
   color: #e0dcdc;
   font-family: 'Oswald', sans-serif;
 }
@@ -201,4 +202,117 @@ h1, p {
   padding-bottom: 2;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+/* Phone */
+
+.phoneView {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.greetingPhone {
+  font-size: 36px;
+  padding-bottom: 0;
+  margin-bottom: 2%;
+}
+
+.greetingParagraphPhone {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 3%;
+  margin-bottom: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  line-height: 150%;
+  font-size: 22px;
+}
+
+.contactInfoPhone {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactInfoRow {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 2%;
+  margin-bottom: 0;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signaturePhone {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.contactInfoParagraphPhone {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.videoPhone {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.samplesDivPhone {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.samplePhone {
+  width: 100%;
+}
+
+.sampleImgPhone {
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 200px;
+  width: 80%;
+}
+
+.downloadResBtnPhone {
+  display: flex;
+  justify-content: center;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 3px;
+  border-style: solid;
+  cursor: pointer;
+  width: 50%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-top: 2%;
+  margin-bottom: 8%;
+}
+
+.downloadPPhone {
+  font-size: 20px;
 }
