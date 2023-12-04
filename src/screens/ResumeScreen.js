@@ -6,7 +6,7 @@ const ResumeScreen = ({ width }) => {
         return (
             <div className='resumeScreen'>
                 <a href={MilesMorlockResume} download="MilesMorlockResume" target='_blank' rel="noreferrer" className='downloadResBtn'>
-                    <p>Download</p>
+                    <p className='downloadText'>Download</p>
                 </a>
                 <img className="resume" src={resumePic} alt='resume' />
             </div>

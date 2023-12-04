@@ -1,4 +1,7 @@
-import greySquare from '../images/greySquare.jpeg';
+import handstandPic from '../images/handstand_pic.jpg';
+import flipPic from '../images/flip_pic.jpg';
+import kickPic from '../images/kickPic.png';
+import deerPic from '../images/deerPic.jpg';
 
 const HomeScreen = ({ width }) => {
     if (width >= 1000) {
@@ -6,10 +9,10 @@ const HomeScreen = ({ width }) => {
             <div className="screen">
                 <div className="leftColumnHome">
                     <div className='homeImgDiv'>
-                        <img className='rotateLeftLC' src={greySquare} alt='me' />
+                        <img className='rotateLeftLC' src={handstandPic} alt='handstand pic' />
                     </div>
                     <div className='homeImgDiv'>
-                        <img className='rotateRightLC' src={greySquare} alt='me' />
+                        <img className='rotateRightLC' src={kickPic} alt='kick pic'/>
                     </div>
                 </div>
                 <div className="mainHome">
@@ -24,10 +27,10 @@ const HomeScreen = ({ width }) => {
                 </div>
                 <div className="rightColumnHome">
                     <div className='homeImgDiv'>
-                        <img className='rotateLeftRC' src={greySquare} alt='me' />
+                        <img className='rotateLeftRC' src={flipPic} alt='flip pic' />
                     </div>
                     <div className='homeImgDiv'>
-                        <img className='rotateRightRC' src={greySquare} alt='me' />
+                        <img className='rotateRightRC' src={deerPic} alt='me and my deer' />
                     </div>
                 </div>
             </div>

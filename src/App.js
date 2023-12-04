@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react';
 import './App.css';
-import greySquare from './images/greySquare.jpeg';
 import MilesMorlockResume from './assets/MilesMorlockResume.pdf';
+import sample1 from './images/GPA_Sample.png';
+import sample2 from './images/EMT_Sample.png';
+import sample3 from './images/NASM_Sample.png';
+import sample4 from './images/Software_Sample.png'
 // Components
 import HomeScreen from './screens/HomeScreen';
 import AboutMeScreen from './screens/AboutMeScreen';
@@ -41,16 +44,16 @@ function App() {
         </div>
         <div className='samplesDivPhone'>
           <div className='samplePhone'>
-            <img className='sampleImgPhone' src={greySquare} alt='sample' />
+            <img className='sampleImgPhone' src={sample1} alt='GPA' />
           </div>
           <div className='samplePhone'>
-            <img className='sampleImgPhone' src={greySquare} alt='sample' />
+            <img className='sampleImgPhone' src={sample2} alt='NREMT certificate' />
           </div>
           <div className='samplePhone'>
-            <img className='sampleImgPhone' src={greySquare} alt='sample' />
+            <img className='sampleImgPhone' src={sample3} alt='NASM certificate' />
           </div>
           <div className='samplePhone'>
-            <img className='sampleImgPhone' src={greySquare} alt='sample' />
+            <img className='sampleImgPhone'  src={sample4} alt='Nucamp certificate' />
           </div>
         </div>
         <div className='videoPhone'>
