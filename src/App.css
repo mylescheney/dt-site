@@ -14,10 +14,8 @@
   justify-content: space-around;
   width: 76%;
   margin-top: 2%;
-}
-
-.navBar {
   cursor: pointer;
+  border-bottom: 3.4px solid #b95cdb;
 }
 
 .navText {
@@ -35,6 +33,7 @@
 .screen {
   width: 92%;
   display: flex;
+  margin-bottom: 5%;
 }
 
 h1,
@@ -104,7 +103,9 @@ p {
 
 .rightColumnAboutMe {
   width: 50%;
-  padding: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
 }
 
 .resumeScreen {
@@ -112,6 +113,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 5%;
 }
 
 .downloadResBtn {
@@ -144,6 +146,7 @@ p {
   align-items: center;
   width: 100%;
   margin-top: 2%;
+  margin-bottom: 5%;
 }
 
 .samplesRow {
@@ -166,6 +169,7 @@ p {
 
 .aboutMeText {
   font-size: 24px;
+  margin-bottom: 5%;
 }
 
 .homeHeading {
@@ -251,7 +255,7 @@ p {
   width: 80%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -341,10 +345,12 @@ p {
 
 .aboutMeTabletDiv {
   width: 560px;
+  margin-bottom: 5%;
 }
 
 .samplesScreenTablet {
   width: 100%;
+  margin-bottom: 5%;
 }
 
 .sampleBlockTablet {
@@ -357,4 +363,28 @@ p {
 .sampleImgTablet {
   width: 100%;
   height: 200px;
+}
+
+.contactInfoTablet {
+  display: flex;
+  flex-direction: column;
+  width: '100%';
+}
+
+.contactInfoRowTablet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20%;
+  width: 60%;
+}
+
+.signatureTablet {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.contactInfoParagraphTablet {
+  font-size: 24px;
 }
